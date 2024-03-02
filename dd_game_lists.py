@@ -34,23 +34,25 @@ enemy_list = [
 
 ######### list of Weapon Objects ##########
 
-
-weapon_list = [
+weapons = [
     {
     'name': 'Wooden Sword',
     'quality': 'Common',
+    'classification': 'Weapon',
     'description': 'Too dull',
     'attack': 2
     },
     {
     'name': 'Junk Sword',
     'quality': 'Uncommon',
+    'classification': 'Weapon',
     'description': "Hope it doesn't break",
     'attack': 4
     },
     {
     'name': 'Steely',
     'quality': 'Rare',
+    'classification': 'Weapon',
     'description': 'Steel sword, looks sharp!',
     'attack': 8
     }
@@ -58,46 +60,52 @@ weapon_list = [
 
 ######### list of Shield Objects ##########
 
-shield_list = [
+shields = [
     {
     'name': 'Wooden Shield',
     'quality': 'Common',
+    'classification': 'Shield',
     'description': 'Looks...kinda durable',
     'defense': 1
     },
     {
     'name': 'Junk Shield',
     'quality': 'Uncommon',
+    'classification': 'Shield',
     'description': "getting there...",
     'defense': 3
     },
     {
     'name': 'Stield',
     'quality': 'Rare',
+    'classification': 'Shield',
     'description': "Of course...because it's steel",
     'defense': 6
     }
 ]
 
 ######### list of Armor Objects ##########
+
 armors = [
     {
     'name': 'Wooden Armor',
     'quality': 'Common',
+    'classification': 'Armor',
     'description': 'Better than nothing',
     'health': 4
     },
     {
     'name': 'Junk Armor',
     'quality': 'Uncommon',
+    'classification': 'Armor',
     'description': "This kinda works",
     'health': 8
     },
     {
     'name': 'Steelio',
     'quality': 'Rare',
+    'classification': 'Armor',
     'description': "Shines bright in the sun!",
     'health': 12
     }
 ]
-
